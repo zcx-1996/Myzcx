@@ -1,0 +1,6 @@
+/applicationContext.xml
+/cn/
+/db.properties
+/mapper/
+/mybatis-config.xml
+/springmvc-servlet.xml

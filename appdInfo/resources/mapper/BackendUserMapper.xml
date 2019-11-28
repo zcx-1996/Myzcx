@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.sp.appinfo.dao.BackendUserDao">
+
+<select id="getByuserCodeAnduserPassword" resultType="BackendUser" >
+	select * from backend_user where userCode=#{userCode} and userPassword=#{userPassword}
+</select>
+
+</mapper>
